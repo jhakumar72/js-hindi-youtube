@@ -30,4 +30,27 @@ console.log(typeof outsideTemp);
 
 
 
+//++++++++++++++++++++++++++++++++++++++++++++++
 
+//  Stack (primitive), Heap(Non-primitive)
+
+let mynameis = "manish"
+
+let anothername = mynameis
+anothername = "kumarjha"
+ console.log(mynameis);
+ console.log(anothername);
+ 
+
+ let userOne = {
+    email:"user@gmail.com",
+    upi:"user@ybl"
+ }
+
+ let userTwo = userOne
+
+ userTwo.email ="manish@gmail.com"
+ console.log(userOne.email);
+ console.log(userTwo.email);
+
+ 
