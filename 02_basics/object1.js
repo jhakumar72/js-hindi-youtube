@@ -53,3 +53,16 @@
 
 //  console.log(object.keys(regularUser));
 // // console.log(object.values(tinderUser));
+
+const course = {
+    coursename:"js in hindi",
+    price: "999",
+    courseInstructor: "hitesh",
+}
+    
+//course.constructor
+
+const {courseInstructor : instructor} = course
+
+console.log (instructor)
+  
